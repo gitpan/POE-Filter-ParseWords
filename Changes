@@ -1,5 +1,8 @@
 POE::Filter::ParseWords
 =======================
 
+0.02	Wed Jul 25 11:01:01 BST 2007
+	- Fixed abstract_from in Makefile.PL
+
 0.01	Fri Jun 22 16:30:56 BST 2007
 	- Initial CPAN Release

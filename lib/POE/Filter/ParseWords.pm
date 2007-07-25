@@ -12,7 +12,7 @@ use vars qw($VERSION);
 use base qw(POE::Filter);
 use Text::ParseWords;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub new {
   my $class = shift;
@@ -54,7 +54,7 @@ __END__
 
 =head1 NAME
 
-POE::Filter::ParseWords -- A POE-based parser to parse text into an array of tokens.
+POE::Filter::ParseWords - A POE-based parser to parse text into an array of tokens.
 
 =head1 SYNOPSIS
 
