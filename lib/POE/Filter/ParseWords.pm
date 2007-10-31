@@ -12,7 +12,7 @@ use vars qw($VERSION);
 use base qw(POE::Filter);
 use Text::ParseWords;
 
-$VERSION = '0.02';
+$VERSION = '1.00';
 
 sub new {
   my $class = shift;

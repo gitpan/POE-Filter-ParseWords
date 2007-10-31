@@ -1,8 +1,9 @@
 --- 
 abstract: A POE-based parser to parse text into an array of tokens.
-author: Chris Williams <chris@bingosnet.co.uk>
+author: 
+  - Chris Williams <chris@bingosnet.co.uk>
 distribution_type: module
-generated_by: Module::Install version 0.67
+generated_by: Module::Install version 0.68
 license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -15,4 +16,4 @@ no_index:
 requires: 
   POE: 0.38
   Text::ParseWords: 0
-version: 0.02
+version: 1.00
