@@ -12,7 +12,7 @@ use vars qw($VERSION);
 use base qw(POE::Filter);
 use Text::ParseWords;
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 sub new {
   my $class = shift;
@@ -47,6 +47,14 @@ sub get_one {
 sub put {
   warn "PUT is unimplemented\n";
   return;
+}
+
+sub clone {
+  my $self = shift;
+  my $nself = { };
+  $nself->{$_} = $self->{$_} for keys %{ $self };
+  $nself->{BUFFER} = [ ];
+  return bless $nself, ref $self;
 }
 
 1;
@@ -100,6 +108,10 @@ tokenised output.
 =item put
 
 This is not implemented.
+
+=item clone
+
+Makes a copy of the filter, and clears the copy's buffer.
 
 =back
 

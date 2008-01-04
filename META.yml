@@ -16,4 +16,4 @@ no_index:
 requires: 
   POE: 0.38
   Text::ParseWords: 0
-version: 1.00
+version: 1.01
