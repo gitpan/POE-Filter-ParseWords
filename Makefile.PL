@@ -4,6 +4,8 @@ author 'Chris Williams <chris@bingosnet.co.uk>';
 license 'perl';
 version_from 'lib/POE/Filter/ParseWords.pm';
 abstract_from 'lib/POE/Filter/ParseWords.pm';
+requires 'warnings::compat' => 0 if $] < 5.006;
 requires 'POE' => 0.38;
+requires 'POE::Filter' => 0;
 requires 'Text::ParseWords' => 0;
 WriteAll();

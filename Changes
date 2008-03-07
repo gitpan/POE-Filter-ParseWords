@@ -1,6 +1,9 @@
 POE::Filter::ParseWords
 =======================
 
+1.02	Fri Mar  7 08:21:21 GMT 2008
+	- Kwalitee fixes.
+
 1.01	Fri Jan  4 10:18:24 GMT 2008
 	- Added clone() method and updated tests
 
