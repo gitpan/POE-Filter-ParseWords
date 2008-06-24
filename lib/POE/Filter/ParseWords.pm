@@ -13,7 +13,7 @@ use vars qw($VERSION);
 use base qw(POE::Filter);
 use Text::ParseWords;
 
-$VERSION = '1.02';
+$VERSION = '1.04';
 
 sub new {
   my $class = shift;
@@ -119,6 +119,12 @@ Makes a copy of the filter, and clears the copy's buffer.
 =head1 AUTHOR
 
 Chris "BinGOs" Williams
+
+=head1 LICENSE
+
+Copyright (C) Chris Williams
+
+This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
 
 =head1 SEE ALSO
 
